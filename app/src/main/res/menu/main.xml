@@ -6,5 +6,45 @@
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+     />
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:title="menu1"/>
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="100"
+        android:title="menu2"/>
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="100"
+        android:title="menu3"/>
+    <item
+        android:id="@+id/menu4"
+        android:orderInCategory="100"
+        android:title="menu4"/>
+    <item
+        android:id="@+id/menu5"
+        android:orderInCategory="100"
+        android:title="menu5"/>
+    <item
+        android:id="@+id/menu6"
+        android:orderInCategory="100"
+        android:title="menu6"/>
+    <item
+        android:id="@+id/menu7"
+        android:orderInCategory="100"
+        android:title="menu7"/>
+    <item
+        android:id="@+id/menu8"
+        android:orderInCategory="100"
+        android:title="menu8"/>
+    <item
+        android:id="@+id/menu9"
+        android:orderInCategory="100"
+        android:title="menu9"/>
+    <item
+        android:id="@+id/menu10"
+        android:orderInCategory="100"
+        android:title="menu10"/>
 </menu>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dipankar.crazyexpandroid.app.MainActivity" >
+    
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+     />
+    <item
+        android:id="@+id/rotate360"
+        android:orderInCategory="100"
+        android:title="string/rotate_String"/>
+    <item
+        android:id="@+id/zoomInOut"
+        android:orderInCategory="100"
+        android:title="string/zoom_In_Out"/>
+
+    <item
+        android:id="@+id/fadeInOut"
+        android:orderInCategory="100"
+        android:title="string/fade_String"/>
+</menu>

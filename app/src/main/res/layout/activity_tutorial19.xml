@@ -11,7 +11,7 @@
     tools:context="com.dipankar.crazyexpandroid.app.MainActivity">
 
     <TextView
-        android:text="You  might forget to chnage the layout in your activity...."
+        android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
