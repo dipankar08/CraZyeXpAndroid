@@ -1,18 +1,18 @@
-<!-- This can be used to do templete ha ha ha -->
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.dipankar.crazyexpandroid.app.MainActivity">
+    android:orientation="vertical"
+     tools:context=".tutorial19" android:layout_height="match_parent" android:layout_width="match_parent">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-</RelativeLayout>
+    <Button android:id="@+id/btStart" android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:onClick="startRepeatingTimer"
+         android:text="string/btStart"
+        />
+    <Button android:id="@+id/btCancel" android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:onClick="cancelRepeatingTimer"
+        android:text="string/btCancel"
+        />
+    <Button android:id="@+id/btOneTime" android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:onClick="onetimeTimer"
+        android:text="string/btOneTime"
+        />
+</LinearLayout>
