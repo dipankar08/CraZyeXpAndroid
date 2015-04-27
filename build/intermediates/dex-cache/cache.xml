@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-9d8963875d0b3db475401d994f0b63add42b72ee.jar" />
+    </item>
+    <item
+        jar="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-f0c36d2f6cf1c7a432fceb4e22f098369bfc7a8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-5ea51fe4d7c3f5277ff5a3d0452c4a47667c514a.jar" />
+    </item>
+    <item
+        jar="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\libs\commons-lang-2.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-1ea4729bd7b216df6329546c9d5a022e21411452.jar" />
+    </item>
+    <item
+        jar="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\DDDDDDDDDDD\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-795690e5436450f600fd80042ef454611b44d27b.jar" />
+    </item>
+
+</items>
