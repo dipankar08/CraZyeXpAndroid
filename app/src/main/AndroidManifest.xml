@@ -106,7 +106,7 @@
         </activity>
         <activity
             android:name=".tutorial11a"
-            android:label="@string/app_name" >
+            android:label="CopyPaste" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -172,28 +172,135 @@
 
         <receiver android:name="com.dipankar.crazyexpandroid.app.tutorial19_AlarmManagerBroadcastReceiver">
         </receiver>
+        <!-- Animation I: Tween Animation Example using Animation Util   -->
         <activity
             android:name=".tutorial20"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
             </intent-filter>
         </activity>
+        <!-- Animation II: Objcet Animator Example    -->
         <activity
             android:name=".tutorial21"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <!-- Animation III: View properiry  Animator Example    -->
+        <activity
+            android:name=".tutorial22"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <!-- Animation IV: Layout Animation Example  // adding another layout dynamically.   -->
+        <activity
+            android:name=".tutorial23"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <!-- Animation V: Animation While Activity Transition    -->
+        <activity
+            android:name=".tutorial24"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
             </intent-filter>
         </activity>
         <activity
-            android:name=".tutorial22"
+            android:name=".tutorial24_next"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Animation VI: Shared View and Activity Transition    -->
+        <activity
+            android:name=".tutorial25"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorial25_next"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Animation VII: Curved Motion..   -->
+        <activity
+            android:name=".tutorial26"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Animation VII: Animation using TransitionManager    -->
+
+        <!-- Fragment I: Curved Motion..   -->
+        <activity
+            android:name=".tutorial30"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Fragment II: Curved Motion..   -->
+        <activity
+            android:name=".tutorial31"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Fragment III: Curved Motion..   -->
+        <activity
+            android:name=".tutorial32"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Fragment IV: Curved Motion..   -->
+        <activity
+            android:name=".tutorial33"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Fragment V: Curved Motion..   -->
+        <activity
+            android:name=".tutorial34"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Fragment VI: Curved Motion..   -->
+        <activity
+            android:name=".tutorial35"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

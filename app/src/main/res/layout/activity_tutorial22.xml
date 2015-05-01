@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent" android:layout_height="match_parent">
-    <fragment class="com.dipankar.crazyexpandroid.app.Tut22_SidePanelFragment"
-        android:id="@+id/side_panel"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
-
-    <!-- FrameLayouts are used to block out a part of the screen to display normally a single
-    object
-    detailsElementBackground is a background that can provide details about the data
-    the user is selecting -->
-    <FrameLayout android:id="@+id/main_panel"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:background="?android:attr/detailsElementBackground"
-        android:layout_weight="3"/>
-
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/fadeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade Out"/>
+    <Button
+        android:id="@+id/fadeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade In"/>
+    <Button
+        android:id="@+id/moveOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Over"/>
+    <Button
+        android:id="@+id/moveBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Back"/>
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/container">
+        <Button
+            android:id="@+id/animatingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animating Button"/>
+    </LinearLayout>
 </LinearLayout>
