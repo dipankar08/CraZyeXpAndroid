@@ -29,7 +29,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 
-public class tutorial11A extends ActionBarActivity {
+public class tutorial11a extends ActionBarActivity {
 
     private ClipboardManager myClipboard;
     private ClipData myClip;
