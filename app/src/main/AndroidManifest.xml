@@ -42,9 +42,10 @@
         <!-- Tut4: Activity Life Cycle-->
         <activity
             android:name=".tutorial4"
-            android:label="@string/app_name" >
+            android:label="Activity LifeCycle" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
             </intent-filter>
         </activity>
         <!-- Tut5: Liner layout Example.-->
@@ -105,7 +106,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tutorial11A"
+            android:name=".tutorial11a"
             android:label="CopyPaste" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -271,20 +272,25 @@
         <!--  Touch Framework Propagation Example -->
         <activity
             android:name=".tutorial32"
-            android:label="@string/app_name" >
+            android:label="Touch Framework Propagation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Fragment IV: TapJacking..   -->
+        <activity
+            android:name=".tutorial33"
+            android:label="TapJacking" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Fragment IV: Curved Motion..   -->
-        <activity
-            android:name=".tutorial33"
-            android:label="@string/app_name" >
+        <service android:name=".BackgroundInstallerService">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.nvisium.tapjacking.BackgroundInstallerService" />
             </intent-filter>
-        </activity>
+        </service>
         <!-- Fragment V: Curved Motion..   -->
         <activity
             android:name=".tutorial34"
