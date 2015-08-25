@@ -3,7 +3,7 @@
     package="com.dipankar.crazyexpandroid.app" >
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/mylogo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -283,7 +283,6 @@
             android:label="TapJacking" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <service android:name=".BackgroundInstallerService">
@@ -291,14 +290,16 @@
                 <action android:name="com.nvisium.tapjacking.BackgroundInstallerService" />
             </intent-filter>
         </service>
-        <!-- Fragment V: Curved Motion..   -->
+
         <activity
             android:name=".tutorial34"
-            android:label="@string/app_name" >
+            android:label="AndroidDialog" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!-- Fragment VI: Curved Motion..   -->
         <activity
             android:name=".tutorial35"
