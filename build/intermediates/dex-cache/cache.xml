@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\ddutta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-5ea51fe4d7c3f5277ff5a3d0452c4a47667c514a.jar" />
+    </item>
+    <item
         jar="D:\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="20.0.0"
@@ -9,18 +16,11 @@
         <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-b9efd5d08bfae7016aebe74560f44dd53f4e0137.jar" />
     </item>
     <item
-        jar="D:\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="D:\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-2a07143dd98c91f1e6cf063f95bd32d631859092.jar" />
-    </item>
-    <item
-        jar="D:\CraZyeXpAndroid\app\libs\commons-lang-2.6.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
-        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-793c92127f73197bcfd1e18d5eebd0dcc7f90a4d.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-5b34cf56ad3b5efdc936be653859a635259c7dfd.jar" />
     </item>
     <item
         jar="D:\CraZyeXpAndroid\app\libs\picasso-2.5.2.jar"
@@ -30,18 +30,18 @@
         <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-4281d81d3e1bc0f543e731beb89ec9d35cbabfa7.jar" />
     </item>
     <item
-        jar="C:\Users\ddutta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="D:\CraZyeXpAndroid\app\libs\commons-lang-2.6.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-5ea51fe4d7c3f5277ff5a3d0452c4a47667c514a.jar" />
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-793c92127f73197bcfd1e18d5eebd0dcc7f90a4d.jar" />
     </item>
     <item
-        jar="D:\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-5b34cf56ad3b5efdc936be653859a635259c7dfd.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\CraZyeXpAndroid\app\build\intermediates\pre-dexed\debug\classes-2a07143dd98c91f1e6cf063f95bd32d631859092.jar" />
     </item>
 
 </items>

@@ -1,4 +1,4 @@
-/* This is a Templete You should Copy this to crete a new one... ha ha ha */
+/* MyProvider Application Shared data : Uses MyProvider.java*/
 package com.dipankar.crazyexpandroid.app;
 
 import android.os.Bundle;
@@ -6,15 +6,38 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Toast;
 
+
+import android.app.Activity;
+import android.content.ContentValues;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
 public class tutorial35 extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toast.makeText(getApplicationContext(), "----VE clicked", Toast.LENGTH_LONG).show();
+        setContentView(R.layout.tutorial35);
     }
-    public void executeHello(View v) {
-        Toast.makeText(this, "Hello World clicked...", Toast.LENGTH_LONG).show();
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        //getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+
+    public void onClickAddName(View view) {
+        ContentValues values = new ContentValues();
+        values.put(MyProvider.name, ((EditText) findViewById(R.id.txtName))
+                .getText().toString());
+        Uri uri = getContentResolver().insert(MyProvider.CONTENT_URI, values);
+        Toast.makeText(getBaseContext(), "New record inserted", Toast.LENGTH_LONG)
+                .show();
     }
 }

@@ -1,4 +1,4 @@
-/* This is a Templete You should Copy this to crete a new one... ha ha ha */
+
 package com.dipankar.crazyexpandroid.app;
 
 import android.app.AlertDialog;
