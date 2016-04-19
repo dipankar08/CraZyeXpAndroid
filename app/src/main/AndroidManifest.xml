@@ -317,23 +317,6 @@
             android:multiprocess="true" >
         </provider>
         -->
-        <activity
-            android:name=".tutorial36"
-            android:label="Content Receiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-            </intent-filter>
-        </activity>
-
-        <!-- Sharing Private file: http://www.blogc.at/2014/03/23/share-private-files-with-other-apps-fileprovider/ -->
-        <activity
-            android:name=".tutorial37"
-            android:label="FileShare" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
         <!--
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -374,7 +357,7 @@
           Some one give a file path to write.
           Provide write it in OpenFile
           URL Return back to Main activity
-        -->
+
         <activity
             android:name=".tutorial40"
             android:label="Tutorial40" >
@@ -389,10 +372,14 @@
             android:exported="false"
             android:grantUriPermissions="true">
         </provider>
+        -->
+
 
         <!-- Binary File read Write Working Example -->
 
     </application>
+    <!-- Experimnet on Application Sate -->
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -405,4 +392,5 @@
     <uses-permission android:name="com.example.android.provider.ACCESS" />
     <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
     <uses-sdk android:minSdkVersion="11" />
+
 </manifest>
