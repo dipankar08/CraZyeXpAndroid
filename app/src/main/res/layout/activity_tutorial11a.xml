@@ -17,6 +17,13 @@
         android:text="Clip Manager"
         android:gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Message"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
@@ -55,6 +62,12 @@
             android:layout_marginLeft="20dp"
             android:onClick="clear"
             android:text="Clear" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:minHeight="20px"
+        android:layout_height="33dp">
         <CheckBox
             android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
