@@ -1,3 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_c0272e9a45cb2733077b9180f56dd60a15059c4c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="32ab8bede8cd600f25a5bb3fe15068c81c8910dc">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0-alpha2_62da7dc15588b87425e34f14e4edc428813ce252\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="bf5aa3b026d5b5fd9f4ab5e8cf13499b9e016dfb">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0-alpha2_9a17323ebe5b9226ea6786e4fe8024c61e4df03e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8693453dbb1e6db159e073e44ce99529ccde39eb">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b9615c115231de9e549b245cce5932cb45b5a6b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\libs\commons-lang-2.6.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang-2.6_d2295652cee37182ee1df16226ba96cb9f5a6e65\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\jars\libs\internal_impl-24.0.0-alpha2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0-alpha2_4ecfde997d58009e44aa6be044e8a37daf1c47c3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="661a632c3b434991d6364690cbe0f786371101cc">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0-alpha2_d1e18d8d4348252c8c938505b41bb24314e841b4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha2\support-annotations-24.0.0-alpha2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0-alpha2_548fcfd2cd2556eea55e9e7440431d7ee10b0844\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="df7f6513d6e2aaa302bbac654807c6129b517090">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0-alpha2_2a043f53a8831c945c8f64a8b6490fd27cb63b43\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="eb588b1d9a764c3722b8f3fd959ff20c1af16c7c">
+        <dex dex="C:\Users\ddutta\Desktop\search-samples-master\search-samples-master\CraZyeXpAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8315ec2e490aed210e0081579fadc04ae39e2017\classes.dex" />
+    </item>
+
+</items>
